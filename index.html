@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bales - Final - Web 1.0</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section id="column-one">
+        <section id="student-info">
+            <h1>Bales</h1>
+            <p> My favorite color is green, and I wear some $10 Walmart sneakers, the brand is worn off, I have no idea.</p>
+        </section>
+        <section id="data-input">
+            <h1>Font Styler</h1>
+            <label>Font Size</label>
+            <input type=number id="input-size">
+            <label>Padding</label>
+            <input type=number id="input-padding">
+            <label>Letter Spacing</label>
+            <input type=number id="input-spacing">
+            <label>Font Family</label>
+            <select id="select-font">
+                <option value="Arial" >Arial</option>
+                <option value="Helvetic" >Helvetic</option>
+                <option value="Times New Roman" >Times New Roman</option>
+                <option value="Georgia" >Georgia</option>
+            </select>
+            <label>Font Color</label>
+            <input type="color" id="input-color" value="#FFFFFF">
+            <label>Background Color</label>
+            <input type="color" id="input-bg-color" value="#3d3d3d">
+            <label>Font Weight</label>
+            <select id="select-weight">
+                <option value="normal" >Normal</option>
+                <option value="bold" >Bold</option>
+                <option value="bolder" >Bolder</option>
+                <option value="lighter" >Lighter</option>
+            </select>
+            <label>Font Style</label>
+            <select id="select-style">
+                <option value="normal" >Normal</option>
+                <option value="italic" >Italic</option>
+                <option value="bold" >Bold</option>
+            </select>
+            <label>Enter Text</label>
+            <input type=text id="enter-text" value="">
+        </section>
+        </section>
+        <section id="column-two">
+        <section id="headline-display">
+            <h1 id="display">Sample Text</h1>
+        </section>
+        <section id="data-output">
+            <h1>Font Settings</h1>
+            <pre><code>.headline {
+                font-size: <span id="show-size">16</span>px;
+                font-family: <span id="show-font">Times</span>;
+                color: <span id="show-color">#000</span>;
+                background-color: <span id="show-bg-color">#fff</span>;
+                font-weight: <span id="show-weight">normal</span>;
+                font-style: <span id="show-style">normal</span>;
+                letter-spacing: <span id="show-spacing">0</span>px;
+                padding: <span id="show-padding">0</span>;
+            }</code></pre>
+        </section>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>

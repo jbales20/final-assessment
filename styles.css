@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3d3d3d;
+    color: white;
+    font-family: arial;
+}
+
+#column-one, #column-two, #data-input{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: 20px
+}
+
+#data-input{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#headline-display{
+    border: 3px solid black;
+    text-align: center; 
+}
+
+p{
+    font-size: 15px;
+}
+
+span{
+    color: #fd8484;
+}
+code{
+    color: rgb(174, 219, 255);
+}
+
+#data-output > pre{
+    background-color: #2e2e2e;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+input, select{
+    background-color: #3d3d3d;
+    color: white;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
